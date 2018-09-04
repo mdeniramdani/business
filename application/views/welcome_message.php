@@ -15,7 +15,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?php echo base_url('lib/bootstrap/css/bootstrap.min.css')?>" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
   <link href="lib/nivo-slider/css/nivo-slider.css" rel="stylesheet">
@@ -1252,7 +1252,7 @@
                     <a class="page-scroll" href="#home">Home</a>
                   </li>
                   <li>
-                    <a class="page-scroll" href="#about">Tentang</a>
+                    <a class="page-scroll" href="#about">Tebtang</a>
                   </li>
                   <li>
                     <a class="page-scroll" href="#services">Layanan</a>
