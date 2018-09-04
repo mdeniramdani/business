@@ -1116,15 +1116,21 @@ span.round-tab:hover {
  7.Gallery Area Css
 ----------------------------------------*/
 
+
 .pst-content {
   padding-left: 10px;
 }
 
 .project-menu {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   text-align: left;
+  float: left;
 }
-
+.project-menu1 {
+  margin-bottom: 50px;
+  text-align: right;
+  margin-top: 10px;
+}
 .project-menu li {
   display: inline-block;
 }
@@ -1143,7 +1149,20 @@ span.round-tab:hover {
   text-transform: capitalize;
   transition: all 0.3s ease 0s;
 }
-
+.project-menu1 li a {
+  background: #fff none repeat scroll 0 0;
+  border: 0px solid #444;
+  border-radius: 20px;
+  color: #444;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 4px;
+  padding: 6px 15px;
+  text-transform: capitalize;
+  transition: all 0.3s ease 0s;
+}
 .project-menu li a.active, .project-menu li a:hover {
   border-color: #3EC1D5;
   background: #3EC1D5;
@@ -2181,7 +2200,7 @@ span.round-tab:hover {
 
 /*----------------------------------------*/
 
-/*  16.	Artikel Details css
+/*  16. Artikel Details css
 /*----------------------------------------*/
 
 .post-information h2 {
