@@ -8,8 +8,8 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/favicon2.png" rel="icon">
-  <link href="img/ADCNmdeniramdani.png" rel="ADCNmdeniramdani">
+  <link href="<?php echo base_url('img/favicon2.png')?>" rel="icon">
+  <link href="<?php echo base_url('img/ADCNmdeniramdani.png')?>" rel="ADCNmdeniramdani">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
@@ -18,24 +18,24 @@
   <link href="<?php echo base_url('lib/bootstrap/css/bootstrap.min.css')?>" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
-  <link href="lib/nivo-slider/css/nivo-slider.css" rel="stylesheet">
-  <link href="lib/owlcarousel/owl.carousel.css" rel="stylesheet">
-  <link href="lib/owlcarousel/owl.transitions.css" rel="stylesheet">
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/venobox/venobox.css" rel="stylesheet">
+  <link href="<?php echo base_url('lib/nivo-slider/css/nivo-slider.css')?>" rel="stylesheet">
+  <link href="<?php echo base_url('lib/owlcarousel/owl.carousel.css')?>" rel="stylesheet">
+  <link href="<?php echo base_url('lib/owlcarousel/owl.transitions.css')?>" rel="stylesheet">
+  <link href="<?php echo base_url('lib/font-awesome/css/font-awesome.min.css')?>" rel="stylesheet">
+  <link href="<?php echo base_url('lib/animate/animate.min.css')?>" rel="stylesheet">
+  <link href="<?php echo base_url('lib/venobox/venobox.css')?>" rel="stylesheet">
 
   <title>CSS Rotate Text</title>
-  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url('style.css')?>" />
 
   <!-- Nivo Slider Theme -->
-  <link href="css/nivo-slider-theme.css" rel="stylesheet">
+  <link href="<?php echo base_url('css/nivo-slider-theme.css')?>" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="<?php echo base_url('css/style.css')?>" rel="stylesheet">
 
   <!-- Responsive Stylesheet File -->
-  <link href="css/responsive.css" rel="stylesheet">
+  <link href="<?php echo base_url('css/responsive.css')?>" rel="stylesheet">
 
 </head>
 
@@ -61,7 +61,7 @@
 										<span class="icon-bar"></span>
 									</button>
                 <!-- Brand -->
-                <a class="navbar-brand page-scroll sticky-logo" href="index.html">
+                <a class="navbar-brand page-scroll sticky-logo" href="index">
                   <h1><span>B</span>usiness</h1>
                   <!-- Uncomment below if you prefer to use an image logo -->
                   <!-- <img src="img/logo.png" alt="" title=""> -->
@@ -103,17 +103,13 @@
     <!-- header-area end -->
   </header>
   <!-- header end -->
-
-
-
-
-  <!-- Start Slider Area -->
+ <!-- Start Slider Area -->
   <div id="home" class="slider-area">
     <div class="bend niceties preview-2">
       <div id="ensign-nivoslider" class="slides">
-        <img src="img/slider/slider01.jpg" alt="" title="#slider-direction-1" />
-        <img src="img/slider/slider02.jpg" alt="" title="#slider-direction-2" />
-        <img src="img/slider/slider03.jpg" alt="" title="#slider-direction-3" />
+        <img src="<?php echo base_url('img/slider/slider01.jpg')?>" alt="" title="#slider-direction-1" />
+        <img src="<?php echo base_url('img/slider/slider02.jpg')?>" alt="" title="#slider-direction-2" />
+        <img src="<?php echo base_url('img/slider/slider03.jpg')?>" alt="" title="#slider-direction-3" />
       </div>
 
       <!-- direction 1 -->
@@ -339,7 +335,6 @@
             <div class="wizard-inner">
                 <div class="connecting-line"></div>
                 <ul class="nav nav-tabs" role="tablist">
-
                     <li role="presentation" class="active">
                         <a href="#step1" data-toggle="tab" aria-controls="step1" role="tab" title="Step 1">
                             <span class="round-tab">
@@ -347,7 +342,6 @@
                             </span>
                         </a>
                     </li>
-
                     <li role="presentation" class="disabled">
                         <a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" title="Step 2">
                             <span class="round-tab">
@@ -437,24 +431,24 @@
             <div class="single-team-member">
               <div class="team-img">
                 <a href="#">
-										<img src="img/team/01.jpg" alt="">
-									</a>
+                    <img src="<?php echo base_url('img/team/01.jpg')?>" alt="">
+                  </a>
                 <div class="team-social-icon text-center">
                   <ul>
                     <li>
                       <a href="#">
-													<i class="fa fa-facebook"></i>
-												</a>
+                          <i class="fa fa-facebook"></i>
+                        </a>
                     </li>
                     <li>
                       <a href="#">
-													<i class="fa fa-twitter"></i>
-												</a>
+                          <i class="fa fa-twitter"></i>
+                        </a>
                     </li>
                     <li>
                       <a href="#">
-													<i class="fa fa-instagram"></i>
-												</a>
+                          <i class="fa fa-instagram"></i>
+                        </a>
                     </li>
                   </ul>
                 </div>
@@ -470,24 +464,24 @@
             <div class="single-team-member">
               <div class="team-img">
                 <a href="#">
-										<img src="img/team/02.jpg" alt="">
-									</a>
+                    <img src="<?php echo base_url('img/team/02.jpg')?>" alt="">
+                  </a>
                 <div class="team-social-icon text-center">
                   <ul>
                     <li>
                       <a href="#">
-													<i class="fa fa-facebook"></i>
-												</a>
+                          <i class="fa fa-facebook"></i>
+                        </a>
                     </li>
                     <li>
                       <a href="#">
-													<i class="fa fa-twitter"></i>
-												</a>
+                          <i class="fa fa-twitter"></i>
+                        </a>
                     </li>
                     <li>
                       <a href="#">
-													<i class="fa fa-instagram"></i>
-												</a>
+                          <i class="fa fa-instagram"></i>
+                        </a>
                     </li>
                   </ul>
                 </div>
@@ -503,24 +497,24 @@
             <div class="single-team-member">
               <div class="team-img">
                 <a href="#">
-										<img src="img/team/03.jpg" alt="">
-									</a>
+                    <img src="<?php echo base_url('img/team/03.jpg')?>" alt="">
+                  </a>
                 <div class="team-social-icon text-center">
                   <ul>
                     <li>
                       <a href="#">
-													<i class="fa fa-facebook"></i>
-												</a>
+                          <i class="fa fa-facebook"></i>
+                        </a>
                     </li>
                     <li>
                       <a href="#">
-													<i class="fa fa-twitter"></i>
-												</a>
+                          <i class="fa fa-twitter"></i>
+                        </a>
                     </li>
                     <li>
                       <a href="#">
-													<i class="fa fa-instagram"></i>
-												</a>
+                          <i class="fa fa-instagram"></i>
+                        </a>
                     </li>
                   </ul>
                 </div>
@@ -536,24 +530,24 @@
             <div class="single-team-member">
               <div class="team-img">
                 <a href="#">
-										<img src="img/team/04.jpg" alt="">
-									</a>
+                    <img src="<?php echo base_url('img/team/04.jpg')?>" alt="">
+                  </a>
                 <div class="team-social-icon text-center">
                   <ul>
                     <li>
                       <a href="#">
-													<i class="fa fa-facebook"></i>
-												</a>
+                          <i class="fa fa-facebook"></i>
+                        </a>
                     </li>
                     <li>
                       <a href="#">
-													<i class="fa fa-twitter"></i>
-												</a>
+                          <i class="fa fa-twitter"></i>
+                        </a>
                     </li>
                     <li>
                       <a href="#">
-													<i class="fa fa-instagram"></i>
-												</a>
+                          <i class="fa fa-instagram"></i>
+                        </a>
                     </li>
                   </ul>
                 </div>
@@ -583,38 +577,61 @@
       </div>
       <div class="row">
         <!-- Start Gallery -page -->
-        <div class="awesome-project-1 fix">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+         <div class="awesome-project-1 fix">
+          <div class="col-sm-12">
             <div class="awesome-menu ">
               <ul class="project-menu">
                 <li>
                   <a href="#" class="active" data-filter="*">All</a>
                 </li>
                 <li>
-                  <a href="#" data-filter=".development">Development</a>
+                  <a href="#" data-filter=".entertainment">ENTERTAINMENT</a>
                 </li>
                 <li>
-                  <a href="#" data-filter=".design">Design</a>
+                  <a href="#" data-filter=".technology">TECHNOLOGY</a>
                 </li>
                 <li>
-                  <a href="#" data-filter=".photo">Photoshop</a>
+                  <a href="#" data-filter=".sports">SPORTS</a>
                 </li>
               </ul>
+          </div>
+        <div class="project-menu1">
+            <div class="btn-group">
+                  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                  View page <span class="caret"></span></button>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">8</a></li>
+                    <li><a href="#">16</a></li>
+                    <li><a href="#">32</a></li>
+                  </ul>
+                </div>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                  Sort By<span class="caret"></span></button>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Popularity</a></li>
+                    <li><a href="#">Relavance</a></li>
+                    <li><a href="#">Date</a></li>
+                    <li><a href="#">Sort By</a></li>
+                  </ul>
+                </div>
             </div>
           </div>
+        </div>
         </div>
 
         <div class="awesome-project-content">
           <!-- single-awesome-project start -->
-          <div class="col-md-4 col-sm-4 col-xs-12 design development">
+          <div class="col-md-4 col-sm-4 col-xs-12 sports">
             <div class="single-awesome-project">
               <div class="awesome-img">
-                <a href="#"><img src="img/portfolio/gallery1.jpg" alt="" /></a>
+                <a href="#"><img src="<?php echo base_url('img/portfolio/gallery1.jpg')?>" alt="" /></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="img/portfolio/gallery1.jpg">
+                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('img/portfolio/gallery1.jpg')?>">
                       <h4>MORNING OUT</h4>
-                      <span>Web Development</span>
+                      <span>sports</span>
                       <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non neque ac elit faucibus feugiat eu sed mauris.
                       </p>
@@ -646,15 +663,15 @@
           </div>
           <!-- single-awesome-project end -->
           <!-- single-awesome-project start -->
-          <div class="col-md-4 col-sm-4 col-xs-12 photo">
+          <div class="col-md-4 col-sm-4 col-xs-12 sports entertainment">
             <div class="single-awesome-project">
               <div class="awesome-img">
-                <a href="#"><img src="img/portfolio/gallery2.jpg" alt="" /></a>
+                <a href="#"><img src="<?php echo base_url('img/portfolio/gallery2.jpg')?>" alt="" /></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="img/portfolio/gallery2.jpg">
+                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('img/portfolio/gallery2.jpg')?>">
                       <h4>Women</h4>
-                      <span>Photoshop</span>
+                      <span>entertainment</span>
                       <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non neque ac elit faucibus feugiat eu sed mauris.
                       </p>
@@ -686,15 +703,15 @@
           </div>
           <!-- single-awesome-project end -->
           <!-- single-awesome-project start -->
-          <div class="col-md-4 col-sm-4 col-xs-12 design">
+          <div class="col-md-4 col-sm-4 col-xs-12 technology entertainment">
             <div class="single-awesome-project">
               <div class="awesome-img">
-                <a href="#"><img src="img/portfolio/gallery3.jpg" alt="" /></a>
+                <a href="#"><img src="<?php echo base_url('img/portfolio/gallery3.jpg')?>" alt="" /></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="img/portfolio/gallery3.jpg">
+                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('img/portfolio/gallery3.jpg')?>">
                       <h4>City</h4>
-                      <span>Web Design</span>
+                      <span>technology</span>
                       <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non neque ac elit faucibus feugiat eu sed mauris.
                     </p>
@@ -726,15 +743,15 @@
           </div>
           <!-- single-awesome-project end -->
           <!-- single-awesome-project start -->
-          <div class="col-md-4 col-sm-4 col-xs-12 photo development">
+          <div class="col-md-4 col-sm-4 col-xs-12 entertainment">
             <div class="single-awesome-project">
               <div class="awesome-img">
-                <a href="#"><img src="img/portfolio/gallery4.jpg" alt="" /></a>
+                <a href="#"><img src="<?php echo base_url('img/portfolio/gallery4.jpg')?>" alt="" /></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="img/portfolio/gallery4.jpg">
+                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('img/portfolio/gallery4.jpg')?>">
                       <h4>Cery</h4>
-                      <span>Web design</span>
+                      <span>entertainment</span>
                       <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non neque ac elit faucibus feugiat eu sed mauris.
                       </p>
@@ -766,15 +783,15 @@
           </div>
           <!-- single-awesome-project end -->
           <!-- single-awesome-project start -->
-          <div class="col-md-4 col-sm-4 col-xs-12 development">
+          <div class="col-md-4 col-sm-4 col-xs-12 technology">
             <div class="single-awesome-project">
               <div class="awesome-img">
-                <a href="#"><img src="img/portfolio/5.jpg" alt="" /></a>
+                <a href="#"><img src="<?php echo base_url('img/portfolio/5.jpg')?>" alt="" /></a>
                 <div class="add-actions text-center text-center">
                   <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="img/portfolio/5.jpg">
+                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('img/portfolio/5.jpg')?>">
                       <h4>Mesin Tik</h4>
-                      <span>Web Development</span>
+                      <span>Development</span>
                       <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non neque ac elit faucibus feugiat eu sed mauris.
                       </p>
@@ -806,15 +823,15 @@
           </div>
           <!-- single-awesome-project end -->
           <!-- single-awesome-project start -->
-          <div class="col-md-4 col-sm-4 col-xs-12 design photo">
+          <div class="col-md-4 col-sm-4 col-xs-12 sports technology">
             <div class="single-awesome-project">
               <div class="awesome-img">
-                <a href="#"><img src="img/portfolio/6.jpg" alt="" /></a>
+                <a href="#"><img src="<?php echo base_url('img/portfolio/6.jpg')?>" alt="" /></a>
                 <div class="add-actions text-center">
                   <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="img/portfolio/6.jpg">
+                    <a class="venobox" data-gall="myGallery" href="<?php echo base_url('img/portfolio/6.jpg')?>">
                       <h4>Night Hill</h4>
-                      <span>Photoshop</span>
+                      <span>Design</span>
                       <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non neque ac elit faucibus feugiat eu sed mauris.
                       </p>
@@ -842,6 +859,19 @@
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+               <div class="col-sm-12 text-center">
+          <div class="blog-pagination">
+              <ul class="pagination">
+                <li><a href="#">&lt;</a></li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&gt;</a></li>
+              </ul>
             </div>
           </div>
           <!-- single-awesome-project end -->
@@ -985,14 +1015,14 @@
             <div class="single-blog">
               <div class="single-blog-img">
                   <h4>
-                                        <a href="blog.html">Judul Artikel</a>
+                                        <a href="<?php echo base_url('artikel')?>">Judul Artikel</a>
                   </h4>
                       <div class="blog-meta">
                         <span class="admin-type">Oleh Admin,</span><span class="date-type">5 Agustus 2018</span>
                       </div>
-                  <a href="blog.html">
-										<img src="img/blog/artikel1.jpg" alt="">
-									</a>
+                  <a href="<?php echo base_url('artikel')?>">
+                    <img src="<?php echo base_url('img/blog/artikel1.jpg')?>" alt="">
+                  </a>
               </div>
               
               <div class="blog-text">
@@ -1001,8 +1031,8 @@
                 </p>
               </div>
               <span>
-									<a href="blog.html" class="ready-btn">Read more</a>
-								</span>
+                  <a href="<?php echo base_url('artikel')?>" class="ready-btn">Read more</a>
+                </span>
             </div>
             <!-- Start single blog -->
           </div>
@@ -1012,14 +1042,14 @@
             <div class="single-blog">
               <div class="single-blog-img">
                   <h4>
-                                        <a href="blog.html">Judul Artikel</a>
+                                        <a href="<?php echo base_url('artikel')?>">Judul Artikel</a>
                   </h4>
-                      <div class="blog-meta">
+                      <div class="'blog-meta">
                         <span class="admin-type">Oleh Admin,</span><span class="date-type">5 Agustus 2018</span>
                       </div>
-                  <a href="blog.html">
-										<img src="img/blog/artikel2.jpg" alt="">
-									</a>
+                  <a href="<?php echo base_url('artikel')?>">
+                    <img src="<?php echo base_url('img/blog/artikel2.jpg')?>" alt="">
+                  </a>
               </div>
               <div class="blog-text">
                 <p>
@@ -1027,8 +1057,8 @@
                 </p>
               </div>
               <span>
-									<a href="blog.html" class="ready-btn">Read more</a>
-								</span>
+                  <a href="<?php echo base_url('artikel')?>" class="ready-btn">Read more</a>
+                </span>
             </div>
             <!-- Start single blog -->
           </div>
@@ -1038,14 +1068,14 @@
             <div class="single-blog">
               <div class="single-blog-img">
                   <h4>
-                                        <a href="blog.html">Judul Artikel</a>
+                                        <a href="<?php echo base_url('artikel')?>">Judul Artikel</a>
                   </h4>
                       <div class="blog-meta">
                         <span class="admin-type">Oleh Admin,</span><span class="date-type">5 Agustus 2018</span>
                       </div>
-                  <a href="blog.html">
-										<img src="img/blog/artikel3.jpg" alt="">
-									</a>
+                  <a href="<?php echo base_url('artikel')?>">
+                    <img src="<?php echo base_url('img/blog/artikel3.jpg')?>" alt="">
+                  </a>
               </div>
               <div class="blog-text">
                 <p>
@@ -1053,8 +1083,8 @@
                 </p>
               </div>
               <span>
-									<a href="blog.html" class="ready-btn">Read more</a>
-								</span>
+                  <a href="<?php echo base_url('artikel')?>" class="ready-btn">Read more</a>
+                </span>
             </div>
           </div>
           <!-- End Right Blog-->
@@ -1252,7 +1282,7 @@
                     <a class="page-scroll" href="#home">Home</a>
                   </li>
                   <li>
-                    <a class="page-scroll" href="#about">Tebtang</a>
+                    <a class="page-scroll" href="#about">Tentang</a>
                   </li>
                   <li>
                     <a class="page-scroll" href="#services">Layanan</a>
@@ -1316,12 +1346,6 @@
               </p>
             </div>
             <div class="credits">
-              <!--
-                All the links in the footer should remain intact.
-                You can delete the links only if you purchased the pro version.
-                Licensing information: https://bootstrapmade.com/license/
-                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Business
-              -->
               Designed by <a href="https://bootstrapmade.com/">mdeniramdani</a>
             </div>
           </div>
@@ -1333,24 +1357,25 @@
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
   <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/venobox/venobox.min.js"></script>
-  <script src="lib/knob/jquery.knob.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/parallax/parallax.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
-  <script src="lib/appear/jquery.appear.js"></script>
-  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="<?php echo base_url('lib/jquery/jquery.min.js')?>"></script>
+  <script src="<?php echo base_url('lib/bootstrap/js/bootstrap.min.js')?>"></script>
+  <script src="<?php echo base_url('lib/bootstrap/js/bootstrap.min.js')?>"></script>
+  <script src="<?php echo base_url('lib/owlcarousel/owl.carousel.min.js')?>"></script>
+  <script src="<?php echo base_url('lib/venobox/venobox.min.js')?>"></script>
+  <script src="<?php echo base_url('lib/knob/jquery.knob.js')?>"></script>
+  <script src="<?php echo base_url('lib/wow/wow.min.js')?>"></script>
+  <script src="<?php echo base_url('lib/parallax/parallax.js')?>"></script>
+  <script src="<?php echo base_url('lib/easing/easing.min.js')?>"></script>
+  <script src="<?php echo base_url('lib/nivo-slider/js/jquery.nivo.slider.js')?>" type="text/javascript"></script>
+  <script src="<?php echo base_url('lib/appear/jquery.appear.js')?>"></script>
+  <script src="<?php echo base_url('lib/isotope/isotope.pkgd.min.js')?>"></script>
   <!-- Uncomment below if you want to use dynamic Google Maps -->
   <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script> -->
 
   <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+  <script src="<?php echo base_url('contactform/contactform.js')?>"></script>
 
-  <script src="js/main.js"></script>
+  <script src="<?php echo base_url('js/main.js')?>"></script>
 </body>
 
 </html>
